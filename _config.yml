@@ -1,9 +1,9 @@
 # Site settings
-title: Liang Ke Jin
-description: Liang Ke Jin
+title: xiaot的磨坊
+description: 走在路上的雷神粉丝
 favicon: /assets/img/avatar.JPG
 baseurl:
-url: https://liungkejin.github.io
+url: https://xiaot1015.github.io/
 rss_url:
 
 # Build settings
