@@ -1,6 +1,5 @@
-### first page
+# Kejin
 
-[] hello world!
+> 自己选的路，跪着也要走下去
 
-
-### hello world!
+![Blog](/assets/img/blog.png)
