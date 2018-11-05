@@ -1,31 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 title: xiaot的磨坊
-description: 走在路上的雷神粉丝
-favicon: /assets/img/avatar.JPG
-baseurl:
-url: https://xiaot1015.github.io/
-rss_url:
+description: '走在路上的雷神粉丝' # write a nice description for your blog
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://xiaot1015.github.io' # the base hostname & protocol for your site http://www.example.com
+# google_analytics: 'UA-XXXXXX-X'
+twitter_username: 'xiat1015'
 
 # Build settings
-
-highlight: true
-#highlighter: rouge
-
-timezone: Asia/Shanghai
-
 markdown: kramdown
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+permalink: '/:title/'
+
+gems: [jekyll-paginate]
+
+paginate: 10

@@ -1,4 +1,3 @@
-source "https://rubygems.org"
-gem "rake"
-
-gem "jekyll"
+source 'https://rubygems.org'
+gem 'github-pages'
+gem 'jekyll-paginate'

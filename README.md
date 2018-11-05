@@ -1,5 +1,15 @@
-# notice
+A [Jekyll](https://jekyllrb.com/) blog template made for simple, readable snippets of your brain drippings.
 
-> 自己选的路，跪着也要走下去
+[DEMO](http://adueck.github.io/cayman-blog/)
 
-![Blog](/assets/img/blog.png)
+To get this going follow these simple steps:
+
+1. Fork, clone, or download the repository
+2. Edit <code>_config.yml</code>
+3. If you want, swap `img/cover.jpg` for your own header image
+3. Fill up the `_posts` folder with whatever you want to say
+4. run <code>jekyll build</code> and then <code>jekyll serve</code>  
+note: This will require the `jekyll-paginate` gem `$ gem install jekyll-paginate`
+
+You can easily host your blog for free on [GitHub Pages](https://pages.github.com/)
+
